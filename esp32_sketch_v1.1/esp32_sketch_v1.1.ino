@@ -32,8 +32,8 @@
 
 #include <WiFi.h>
 
-const char* ssid     = "STC - NS";//Must be changed to Your WIFI SSID Name
-const char* password = "asd123zxc";//Must be changed to Your WIFI Password
+const char* ssid     = "tom";//Must be changed to Your WIFI SSID Name
+const char* password = "lightning";//Must be changed to Your WIFI Password
 WiFiServer server(80);
 String httpAppJsonOk = "HTTP/1.1 200 OK\r\n content-type:application/json \r\n\r\n";
 String httpTextPlainOk = "HTTP/1.1 200 OK\r\n content-type:text/plain \r\n\r\n";
